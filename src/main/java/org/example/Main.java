@@ -11,7 +11,7 @@ public class Main {
         //6. Calcular el IMC de la persona con todos los parametros
         System.out.println(persona2);
 
-        System.out.println("Su IMC es: ");
+        System.out.print("Su IMC es: ");
         switch(persona2.calcularIMC()){
             case -1 -> System.out.println("Bajo peso");
             case 0 -> System.out.println("Peso saludable");
